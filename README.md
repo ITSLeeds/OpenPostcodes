@@ -14,7 +14,7 @@ This repo attemts to cirumvent this problem using some simple steps
 3. Within each Output Area construct voroni polygons to approximate postcode areas.
 
 **Example: Open Postcodes (blue), real postcode areas (red)**
-<img src='postcodes.png'/> 
+<img src='postcode.png'/> 
 
 
 
