@@ -27,7 +27,7 @@ These techniques are not perfect, but they produce reasonably good results in ma
 **Example: Open Postcodes (blue), real postcode areas (red)**
 <img src='postcode.png'/> 
 
-## How can I contributes
+## How can I contribute?
 
 If you have open source postcode data to share, please open an [issue](https://github.com/ITSLeeds/OpenPostcodes/issues).
 
