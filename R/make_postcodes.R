@@ -44,7 +44,7 @@ masterlist <- pbapply::pblapply(1:nrow(oa), build_list)
 rm(inter, oa, other, postcodes)
 gc()
 
-postcodes_poly <- pbapply::pblapply(masterlist, make_postcodes2)
+postcodes_poly <- pbapply::pblapply(masterlist, make_postcodes2              )
 
 
 
@@ -58,7 +58,7 @@ postcodes_poly <- pbapply::pblapply(masterlist, make_postcodes2)
 # postcodes_poly <- foreach::`%dopar%`(boot, make_postcodes(i))
 # parallel::stopCluster(cl)
 # rm(cl, boot, opts, pb, progress)
-cl <- parallel::makeCluster(3)
+cl <- parallel::makeCluster(5)
 # parallel::clusterExport(
 #   cl = cl,
 #   varlist = c("inter", "oa", "other", "postcodes"),
